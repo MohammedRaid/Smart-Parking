@@ -1,0 +1,19 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+backend/*.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/dev.log
+frontend/*.local
+
+# Tooling / OS
+.DS_Store
+Thumbs.db
+*.log
